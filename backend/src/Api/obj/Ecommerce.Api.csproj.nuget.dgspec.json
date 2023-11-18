@@ -1,0 +1,266 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Kevin\\amazon-shop\\backend\\src\\Api\\Ecommerce.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Kevin\\amazon-shop\\backend\\src\\Api\\Ecommerce.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kevin\\amazon-shop\\backend\\src\\Api\\Ecommerce.Api.csproj",
+        "projectName": "Ecommerce.Api",
+        "projectPath": "D:\\Kevin\\amazon-shop\\backend\\src\\Api\\Ecommerce.Api.csproj",
+        "packagesPath": "C:\\Users\\rmpul\\.nuget\\packages\\",
+        "outputPath": "D:\\Kevin\\amazon-shop\\backend\\src\\Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rmpul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Application\\Ecommerce.Application.csproj": {
+                "projectPath": "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Application\\Ecommerce.Application.csproj"
+              },
+              "D:\\Kevin\\amazon-shop\\backend\\src\\Infrastructure\\Ecommerce.Infrastructure.csproj": {
+                "projectPath": "D:\\Kevin\\amazon-shop\\backend\\src\\Infrastructure\\Ecommerce.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Application\\Ecommerce.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Application\\Ecommerce.Application.csproj",
+        "projectName": "Ecommerce.Application",
+        "projectPath": "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Application\\Ecommerce.Application.csproj",
+        "packagesPath": "C:\\Users\\rmpul\\.nuget\\packages\\",
+        "outputPath": "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rmpul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Domain\\Ecommerce.Domain.csproj": {
+                "projectPath": "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Domain\\Ecommerce.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Domain\\Ecommerce.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Domain\\Ecommerce.Domain.csproj",
+        "projectName": "Ecommerce.Domain",
+        "projectPath": "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Domain\\Ecommerce.Domain.csproj",
+        "packagesPath": "C:\\Users\\rmpul\\.nuget\\packages\\",
+        "outputPath": "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rmpul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Kevin\\amazon-shop\\backend\\src\\Infrastructure\\Ecommerce.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kevin\\amazon-shop\\backend\\src\\Infrastructure\\Ecommerce.Infrastructure.csproj",
+        "projectName": "Ecommerce.Infrastructure",
+        "projectPath": "D:\\Kevin\\amazon-shop\\backend\\src\\Infrastructure\\Ecommerce.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\rmpul\\.nuget\\packages\\",
+        "outputPath": "D:\\Kevin\\amazon-shop\\backend\\src\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rmpul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Application\\Ecommerce.Application.csproj": {
+                "projectPath": "D:\\Kevin\\amazon-shop\\backend\\src\\Core\\Application\\Ecommerce.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

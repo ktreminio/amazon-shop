@@ -1,0 +1,11 @@
+D:\Kevin\amazon-shop\backend\src\Core\Domain\bin\Debug\net8.0\Ecommerce.Domain.deps.json
+D:\Kevin\amazon-shop\backend\src\Core\Domain\bin\Debug\net8.0\Ecommerce.Domain.dll
+D:\Kevin\amazon-shop\backend\src\Core\Domain\bin\Debug\net8.0\Ecommerce.Domain.pdb
+D:\Kevin\amazon-shop\backend\src\Core\Domain\obj\Debug\net8.0\Ecommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kevin\amazon-shop\backend\src\Core\Domain\obj\Debug\net8.0\Ecommerce.Domain.AssemblyInfoInputs.cache
+D:\Kevin\amazon-shop\backend\src\Core\Domain\obj\Debug\net8.0\Ecommerce.Domain.AssemblyInfo.cs
+D:\Kevin\amazon-shop\backend\src\Core\Domain\obj\Debug\net8.0\Ecommerce.Domain.csproj.CoreCompileInputs.cache
+D:\Kevin\amazon-shop\backend\src\Core\Domain\obj\Debug\net8.0\Ecommerce.Domain.dll
+D:\Kevin\amazon-shop\backend\src\Core\Domain\obj\Debug\net8.0\refint\Ecommerce.Domain.dll
+D:\Kevin\amazon-shop\backend\src\Core\Domain\obj\Debug\net8.0\Ecommerce.Domain.pdb
+D:\Kevin\amazon-shop\backend\src\Core\Domain\obj\Debug\net8.0\ref\Ecommerce.Domain.dll
