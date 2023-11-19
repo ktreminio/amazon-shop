@@ -13,5 +13,8 @@ namespace Ecommerce.Domain.Entities
         public int Stock {  get; set; }
         public ProductSatusEnum Status { get; set; } = ProductSatusEnum.Activo;
         public int CategoryId { get; set; }
+        public virtual Category? Category { get; set; }
+        public virtual ICollection<Review>? Reviews { get; set; }
+        public virtual ICollection<Image>? Images { get; set; }
     }
 }
